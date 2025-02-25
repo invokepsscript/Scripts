@@ -8,11 +8,11 @@ $permission = "Read"
 
 New-SmbShare -Name $sharename -Path $folderpath -FullAccess $username
 
-$sharename = "5288IT_2"
+$sharename = "dini"
 
 $folderpath = "O:\"
 
-$username = "Administrators"
+$username = "Everyone"
 
 $permission = "Read"
 
