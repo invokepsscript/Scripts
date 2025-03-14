@@ -12,7 +12,7 @@ If ($username.Length -gt 16){
 
             $result = Get-LocalGroupMember -Group "Administrators"
 
-            Write-Host "Here is the result:\n $result"
+            Write-Host "Here is the result:`n $result"
 
         }
         
